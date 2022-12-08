@@ -8,7 +8,7 @@ const Article = () => {
 
   useEffect(() => {
       axios
-          .get('https://reactserver-production.up.railway.app/')
+          .get('https://reactproject3server-production.up.railway.app/')
           .then(res => {
               console.log(res)
           setPosts(res.data)
